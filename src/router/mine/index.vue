@@ -18,7 +18,7 @@ export default {
     }
   },
   async created () {
-    this.$$title('莫纳洛酒店')
+    this.$$title('个人中心')
   },
   mounted () {
     this.$$utils.allowRefreshOrShare(false, false)
