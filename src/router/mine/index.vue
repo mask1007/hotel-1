@@ -1,6 +1,5 @@
 <template lang="html">
   <div class="home">
-    反反复复
   </div>
 </template>
 
@@ -19,7 +18,7 @@ export default {
     }
   },
   async created () {
-    this.$$title('莫纳洛酒店')
+    this.$$title('个人中心')
   },
   mounted () {
     this.$$utils.allowRefreshOrShare(false, false)
