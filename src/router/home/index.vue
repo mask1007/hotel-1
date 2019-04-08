@@ -1,5 +1,6 @@
 <template lang="html">
   <div class="home">
+    反反复复
   </div>
 </template>
 
