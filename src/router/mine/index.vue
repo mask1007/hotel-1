@@ -16,7 +16,6 @@ export default {
     this.$$title('个人中心')
   },
   mounted () {
-    this.$$utils.allowRefreshOrShare(false, false)
   },
   watch: {
   },
