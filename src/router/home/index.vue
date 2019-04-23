@@ -1,16 +1,15 @@
 <template lang="html">
   <div class="home">
-    反反复复
+    <van-list v-for="item in 2">
+111
+    </van-list>
+    这个是页面
   </div>
 </template>
 
 <script>
 import { mapState, mapMutations } from 'vuex'
-import { Button, Icon, Cell, CellGroup, Collapse, CollapseItem, Field, Actionsheet, Picker, Popup } from 'vant'
-import np from 'number-precision'
-import actionSheet from '@/components/actionSheet'
-import Input from '@/components/input'
-import Fetching from '@/components/common/loading/fetching'
+import { Button, Icon, Cell, CellGroup, Collapse, CollapseItem, Field, Actionsheet, Picker, Popup, List } from 'vant'
 
 export default {
   data () {
@@ -41,9 +40,7 @@ export default {
     vanActionsheet: Actionsheet,
     vanPicker: Picker,
     vanPopup: Popup,
-    numberInput: Input,
-    actionSheet,
-    pageFetching: Fetching
+    vanList: List
   }
 }
 </script>
