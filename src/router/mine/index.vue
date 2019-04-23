@@ -21,7 +21,6 @@ export default {
     this.$$title('个人中心')
   },
   mounted () {
-    this.$$utils.allowRefreshOrShare(false, false)
   },
   watch: {
   },
@@ -40,9 +39,6 @@ export default {
     vanActionsheet: Actionsheet,
     vanPicker: Picker,
     vanPopup: Popup,
-    numberInput: Input,
-    actionSheet,
-    pageFetching: Fetching
   }
 }
 </script>
