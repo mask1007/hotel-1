@@ -1,11 +1,15 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
 
 <script>
+  import Vue from 'vue';
+import Vant from 'vant';
+import 'vant/lib/index.css';
+
+Vue.use(Vant);
 export default {
   name: 'App'
 }
@@ -18,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>
