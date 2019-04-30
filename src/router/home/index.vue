@@ -161,7 +161,7 @@ export default {
 <style lang="css" scoped>
 
 </style>
-<style lang="css">
+<style lang="css" scoped>
   body{
     margin: 0;
   }
