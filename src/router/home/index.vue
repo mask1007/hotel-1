@@ -132,6 +132,7 @@ export default {
       isFetching: false,
       activeName: '',
       activeNames: '',
+      test: '',
       list: [{img: 'http://qzx.zhy.fun:8888/images/testimonial1.png', name: 'Jonathan', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit placeat deserunt, esse iure totam laborum aspernatur'}, {img: 'http://qzx.zhy.fun:8888/images/testimonial2.png', name: 'Jonathan', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit placeat deserunt, esse iure totam laborum aspernatur'}, {img: 'http://qzx.zhy.fun:8888/images/testimonial3.png', name: 'Jonathan', desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit placeat deserunt, esse iure totam laborum aspernatur'}],
       bestRoom: [{name: 'Superior Room', desc: 'Lorem ipsum dolor sit amet, consectetur.', price: '$50 /Night', img: 'http://qzx.zhy.fun:8888/images/best-room1.jpg'}, {name: 'Family Room', desc: 'Lorem ipsum dolor sit amet, consectetur.', price: '$50 /Night', img: 'http://qzx.zhy.fun:8888/images/best-room2.jpg'}, {name: 'Family Room', desc: 'Lorem ipsum dolor sit amet, consectetur.', price: '$50 /Night', img: 'http://qzx.zhy.fun:8888/images/best-room3.jpg'}],
       images: ['https://qzx.zhy.fun:8888/images/slider1.jpg', 'https://qzx.zhy.fun:8888/images/slider2.jpg', 'https://qzx.zhy.fun:8888/images/slider3.jpg'
