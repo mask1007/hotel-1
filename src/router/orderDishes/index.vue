@@ -3,7 +3,7 @@
     <div class="orderDishes">
       <div class="types">
         <div class="type" v-for="(item,index) in arr" :key="item.id" @click=choose(item.code,index)>
-            {{item.name}}
+          {{item.name}}
         </div>
       </div>
       <div class="goodsList">
