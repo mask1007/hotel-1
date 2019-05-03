@@ -8,11 +8,6 @@ export default new Router({
   base: '/m',
   routes: [
     {
-      path: '/home',
-      name: 'home',
-      component: resolve => require(['./home'], resolve)
-    },
-    {
       path: '/orderDishes',
       name: 'orderDishes',
       component: resolve => require(['./orderDishes'], resolve)
