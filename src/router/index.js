@@ -17,5 +17,10 @@ export default new Router({
       name: 'orderDishes',
       component: resolve => require(['./orderDishes'], resolve)
     },
+    {
+      path: '/recommend',
+      name: 'recommend',
+      component: resolve => require(['./recommend'], resolve)
+    },
   ]
 })
